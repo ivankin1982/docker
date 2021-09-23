@@ -4,12 +4,12 @@ Intro to Docker
 
 Prerequisites
 =============
-- [ ] RAM ≥ 4Gb
-- [ ] Права локального админа для аккаунта участника 
-- [ ] Доступен git repo с данным руководством {{ git-repo }} `https://github.com/eugene-krivosheyev/docker`
-- [ ] Доступен {{ registry-host }} `https://hub.docker.com` (Docker Hub)
-- [ ] Зарегистрирована учетная запись {{ registry-account }} на {{ registry-host }}
-- [ ] Установлен Docker CE или совместимый менеджер контейнеров (e.g. Podman)
+- [+] RAM ≥ 4Gb
+- [+] Права локального админа для аккаунта участника 
+- [+] Доступен git repo с данным руководством {{ git-repo }} `https://github.com/eugene-krivosheyev/docker`
+- [+] Доступен {{ registry-host }} `https://hub.docker.com` (Docker Hub)
+- [+] Зарегистрирована учетная запись {{ registry-account }} на {{ registry-host }}
+- [+] Установлен Docker CE или совместимый менеджер контейнеров (e.g. Podman)
 ```shell
 sudo dnf install -y docker
 ```
